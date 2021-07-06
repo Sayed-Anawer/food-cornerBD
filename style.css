@@ -76,3 +76,45 @@ body{
     font-weight: bold;
     color:gray
 }
+
+/* Recipies Section */
+.title-recipies{
+    text-align: center;
+    margin-top: 4%;
+    margin-bottom: 2%;
+}
+.title-recipies h1{
+    color: gray;
+    font-size: 3rem;
+    font-weight:bolder;
+}
+.recipies-section{
+    width: 100%;
+    height: 100vh;
+}
+.recipie-items{
+    display: flex;
+    justify-content: space-between;
+    justify-content: space-around;
+ 
+}
+.recipie-items img{
+    border-radius: 20px;
+    margin-left: 14px;
+    width: 350px;
+    height: 250px;
+}
+.item{
+    padding: 20px;
+    width:20%;
+    height: 550px;
+    box-shadow: 0 0 25px 0.1px #cecece;
+    border-radius: 30px;
+}
+.item h3{
+    font-size: 1.8rem;
+    font-weight: bolder;
+}
+.item p{
+ opacity:0.8;
+}
